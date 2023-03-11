@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="17997009-ff23-4eda-94a8-c6346fc3f492" name="my-server">
+        <fileTransfer accessType="SFTP" host="42.192.155.7" port="22" sshConfigId="96bbf3b1-4231-46fa-ab05-d6242abbfd44" sshConfig="lighthouse@42.192.155.7:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

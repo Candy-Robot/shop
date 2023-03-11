@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package user;
+
+option go_package = "./proto;user";
+
+service User {
+	rpc Register(RegRequest) returns (RegResponse) {}
+}
+
+message RegRequest {
+    string mobile = 1;
+    string password = 2;
+}
+
+message RegResponse {
+    string errno = 1;
+    string errmsg = 2;
+}
+
+
+
+
+
